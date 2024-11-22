@@ -1,0 +1,267 @@
+/* General Styles */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    color: #333;
+
+    line-height: 1.6;
+
+}
+
+header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 20px 50px;
+
+    background-color: #ff4500;
+
+    color: white;
+
+}
+
+.logo {
+
+    font-size: 1.5rem;
+
+    font-weight: bold;
+
+}
+
+.navbar a {
+
+    margin: 0 15px;
+
+    text-decoration: none;
+
+    color: white;
+
+}
+
+.order-btn {
+
+    padding: 10px 20px;
+
+    background-color: #FFB6C1;
+
+    color: red;
+
+    border: none;
+
+    cursor: pointer;
+
+}
+
+/* Hero Section */
+
+.hero {
+
+    text-align: center;
+
+   background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVXeDPGF6vGWns6Rbv42ekMvy1Eo_khzw0c5b7eQjPv1-vBa2DQIaY1ogw&s=10') center/cover no-repeat;
+    height: 100vh;
+
+    color: white;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.hero h1 {
+
+    font-size: 5rem;
+  margin-bottom: 2px;
+
+}
+
+.hero h2{ 
+  font-family: Georgia;
+  font-size: 4rem;
+  margin-top:  0.1px;
+  
+}
+
+
+.cta-btn {
+
+    padding: 15px 30px;
+
+    background-color: #ff4300;
+
+    color: white;
+
+    border: none;
+
+    font-size: 2rem;
+
+    cursor: pointer;
+
+    margin-top: 20px;
+
+}
+
+/* Menu Section */
+
+.menu {
+
+    padding: 50px;
+
+    text-align: center;
+
+}
+
+.menu h2 {
+
+    margin-bottom: 20px;
+
+}
+
+.menu-grid {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+
+}
+
+.menu-item {
+
+    background: #ddd;
+
+    border: 1px solid #ddd;
+
+    border-radius: 8px;
+
+    padding: 15px;
+
+    text-align: center;
+
+    width: 300px;
+
+}
+
+.menu-item img {
+
+    max-width: 100%;
+
+    border-radius: 8px;
+
+}
+
+.menu-item h3 {
+
+    margin: 15px 0;
+
+}
+
+/* About Section */
+
+.about {
+
+    padding: 50px;
+
+    background-color: #FFB6C1;
+
+    text-align: center;
+
+}
+
+/* Locations Section */
+
+.locations {
+
+    padding: 50px;
+
+}
+
+.location-grid {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+
+}
+
+/* Contact Section */
+
+.contact {
+
+    padding: 50px;
+
+    background-color: #f8f8f8;
+
+    text-align: center;
+
+}
+
+.contact form {
+
+    max-width: 400px;
+
+    margin: auto;
+
+}
+
+.contact input, .contact textarea {
+
+    width: 100%;
+
+    padding: 10px;
+
+    margin-bottom: 10px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 4px;
+
+}
+
+.contact button {
+
+    width: 100%;
+
+    padding: 10px;
+
+    background-color: #ff4500;
+
+    color: white;
+
+    border: none;
+
+    cursor: pointer;
+
+}
+
+/* Footer */
+
+.footer {
+
+    text-align: center;
+
+    padding: 20px;
+
+    background-color: #333;
+
+    color: white;
+
+}
